@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		771255CB18F30F4D001CBB6D /* A_LGV_DigitalPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 771255B018F30F4D001CBB6D /* A_LGV_DigitalPanel.m */; };
+		771255CC18F30F4D001CBB6D /* LGV_LEDDigitalPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 771255B218F30F4D001CBB6D /* LGV_LEDDigitalPanel.m */; };
+		771255CD18F30F4D001CBB6D /* A_LGV_DigitalTimeDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 771255B518F30F4D001CBB6D /* A_LGV_DigitalTimeDisplay.m */; };
+		771255CE18F30F4D001CBB6D /* LGV_LEDDigitalTimeDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 771255B718F30F4D001CBB6D /* LGV_LEDDigitalTimeDisplay.m */; };
+		771255CF18F30F4D001CBB6D /* A_LGV_DigitUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 771255BA18F30F4D001CBB6D /* A_LGV_DigitUIView.m */; };
+		771255D018F30F4D001CBB6D /* LGV_DynLEDDigitUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 771255BC18F30F4D001CBB6D /* LGV_DynLEDDigitUIView.m */; };
+		771255D118F30F4D001CBB6D /* LGV_PickerScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 771255BF18F30F4D001CBB6D /* LGV_PickerScroller.m */; };
+		771255D218F30F4D001CBB6D /* LGV_PrizeWheelScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 771255C218F30F4D001CBB6D /* LGV_PrizeWheelScroller.m */; };
+		771255D318F30F4D001CBB6D /* RatchetClick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 771255C418F30F4D001CBB6D /* RatchetClick.wav */; };
+		771255D418F30F4D001CBB6D /* LGV_SimplePrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 771255C718F30F4D001CBB6D /* LGV_SimplePrefs.m */; };
+		771255D518F30F4D001CBB6D /* LGV_SimpleRoundedRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 771255CA18F30F4D001CBB6D /* LGV_SimpleRoundedRectButton.m */; };
+		771255E418F310B8001CBB6D /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712558E18F30C8A001CBB6D /* AppIcon29x29.png */; };
+		771255E518F310B8001CBB6D /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712558F18F30C8A001CBB6D /* AppIcon29x29@2x.png */; };
+		771255E618F310B8001CBB6D /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712559018F30C8A001CBB6D /* AppIcon40x40.png */; };
+		771255E718F310B8001CBB6D /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712559118F30C8A001CBB6D /* AppIcon40x40@2x.png */; };
+		771255E818F310B8001CBB6D /* AppIcon50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712559218F30C8A001CBB6D /* AppIcon50x50.png */; };
+		771255E918F310B8001CBB6D /* AppIcon50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712559318F30C8A001CBB6D /* AppIcon50x50@2x.png */; };
+		771255EA18F310B8001CBB6D /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712559418F30C8A001CBB6D /* AppIcon57x57.png */; };
+		771255EB18F310B8001CBB6D /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712559518F30C8A001CBB6D /* AppIcon57x57@2x.png */; };
+		771255EC18F310B8001CBB6D /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712559618F30C8A001CBB6D /* AppIcon60x60.png */; };
+		771255ED18F310B8001CBB6D /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712559718F30C8A001CBB6D /* AppIcon60x60@2x.png */; };
+		771255EE18F310B8001CBB6D /* AppIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712559818F30C8A001CBB6D /* AppIcon72x72.png */; };
+		771255EF18F310B8001CBB6D /* AppIcon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712559918F30C8A001CBB6D /* AppIcon72x72@2x.png */; };
+		771255F018F310B8001CBB6D /* AppIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712559A18F30C8A001CBB6D /* AppIcon76x76.png */; };
+		771255F118F310B8001CBB6D /* AppIcon76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712559B18F30C8A001CBB6D /* AppIcon76x76@2x.png */; };
+		771255F718F31346001CBB6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 771255F618F31346001CBB6D /* Default-568h@2x.png */; };
+		7733B02E187F904D00A825BE /* A_LGV_MCNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7733B02D187F904D00A825BE /* A_LGV_MCNetworkManager.m */; };
+		7760366418F3146600E965C8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7760366218F3146600E965C8 /* Default.png */; };
+		7760366518F3146600E965C8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7760366318F3146600E965C8 /* Default@2x.png */; };
+		7760366618F3149500E965C8 /* iPadTallLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 771255A118F30C8A001CBB6D /* iPadTallLandscape.png */; };
+		7760366718F3149500E965C8 /* iPadTallLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 771255A218F30C8A001CBB6D /* iPadTallLandscape@2x.png */; };
+		7760366818F3149500E965C8 /* iPadTallPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 771255A318F30C8A001CBB6D /* iPadTallPortrait.png */; };
+		7760366918F3149500E965C8 /* iPadTallPortrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 771255A418F30C8A001CBB6D /* iPadTallPortrait@2x.png */; };
+		7760366B18F314F800E965C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7760366A18F314F800E965C8 /* Images.xcassets */; };
+		7764AFEC16580B5000E59ED8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FA8BB415ACC05F00F250DB /* main.m */; };
+		7764AFED16580B5000E59ED8 /* LGV_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FA8BB815ACC05F00F250DB /* LGV_AppDelegate.m */; };
+		7764AFEE16580B5000E59ED8 /* LGV_TimerSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FA8BC115ACC05F00F250DB /* LGV_TimerSettingsViewController.m */; };
+		7764AFEF16580B5000E59ED8 /* LGV_SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7710386E15C407ED00CC9DA9 /* LGV_SettingsViewController.m */; };
+		7764AFF016580B5000E59ED8 /* LGV_PrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F022515C4D09300668621 /* LGV_PrefsViewController.m */; };
+		7764AFF116580B5000E59ED8 /* A_LGV_PrototypeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B744C315C5A45D00F58DB2 /* A_LGV_PrototypeWindow.m */; };
+		7764AFF216580B5000E59ED8 /* LGV_OperationalTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77969E9F15CEE4960094E079 /* LGV_OperationalTimerViewController.m */; };
+		7764AFF316580B5000E59ED8 /* A_LGV_TimerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77969EA515CF08BB0094E079 /* A_LGV_TimerBaseViewController.m */; };
+		7764AFF416580B5000E59ED8 /* LGV_InfoWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BCDED815D0634A005064BC /* LGV_InfoWindowViewController.m */; };
+		7764AFF516580B5000E59ED8 /* LGV_RoundedBackgroundPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6BF1C15D73B8E00A45D24 /* LGV_RoundedBackgroundPanel.m */; };
+		7764B00116580B5000E59ED8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A9D74F15C1F72200C6EA1C /* AudioToolbox.framework */; };
+		7764B00216580B5000E59ED8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77319F1215B4AD93006B27E4 /* libz.dylib */; };
+		7764B00316580B5000E59ED8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FA8BE415ACC1FE00F250DB /* QuartzCore.framework */; };
+		7764B00416580B5000E59ED8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FA8BA815ACC05F00F250DB /* UIKit.framework */; };
+		7764B00516580B5000E59ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FA8BAA15ACC05F00F250DB /* Foundation.framework */; };
+		7764B00616580B5000E59ED8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FA8BAC15ACC05F00F250DB /* CoreGraphics.framework */; };
+		7764B00816580B5000E59ED8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77FA8BB115ACC05F00F250DB /* InfoPlist.strings */; };
+		7764B00916580B5000E59ED8 /* Stopwatch1.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FA8BD615ACC10000F250DB /* Stopwatch1.png */; };
+		7764B00A16580B5000E59ED8 /* Stopwatch1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FA8BD715ACC10000F250DB /* Stopwatch1@2x.png */; };
+		7764B00B16580B5000E59ED8 /* Stopwatch2.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FA8BD815ACC10000F250DB /* Stopwatch2.png */; };
+		7764B00C16580B5000E59ED8 /* Stopwatch2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FA8BD915ACC10000F250DB /* Stopwatch2@2x.png */; };
+		7764B00D16580B5000E59ED8 /* Stopwatch3.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FA8BDA15ACC10000F250DB /* Stopwatch3.png */; };
+		7764B00E16580B5000E59ED8 /* Stopwatch3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FA8BDB15ACC10000F250DB /* Stopwatch3@2x.png */; };
+		7764B01016580B5000E59ED8 /* black-gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 770B0BF315B72A5D000405C6 /* black-gradient.png */; };
+		7764B01116580B5000E59ED8 /* SettingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7710386715C4074F00CC9DA9 /* SettingsIcon.png */; };
+		7764B01216580B5000E59ED8 /* SettingsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7710386815C4074F00CC9DA9 /* SettingsIcon@2x.png */; };
+		7764B01316580B5000E59ED8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 778F021A15C4CD6700668621 /* Localizable.strings */; };
+		7764B01416580B5000E59ED8 /* InfoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 777E323C15CC801300617D40 /* InfoIcon.png */; };
+		7764B01516580B5000E59ED8 /* InfoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 777E323D15CC801300617D40 /* InfoIcon@2x.png */; };
+		7764B01A16580B5000E59ED8 /* LGV_OperationalTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77969EA015CEE4960094E079 /* LGV_OperationalTimerViewController.xib */; };
+		7764B01B16580B5000E59ED8 /* RustyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 77BCDED215D0630B005064BC /* RustyLogo.png */; };
+		7764B01C16580B5000E59ED8 /* Beep_01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7724D2FB15D2AA4E007934CB /* Beep_01.wav */; };
+		7764B02016580B5000E59ED8 /* Splinter.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A405D815D535F30032349E /* Splinter.png */; };
+		7764B02816580B5000E59ED8 /* speaker-beepr-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FBA8A515DAC9E3009BF929 /* speaker-beepr-logo.png */; };
+		7764B02A16580B5000E59ED8 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 77AEC8F7163DBDEB008E4CB6 /* README */; };
+		776505E518981F7500C12425 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776505E418981F7500C12425 /* MultipeerConnectivity.framework */; };
+		7771A11A1658337000B3FB60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7771A1191658337000B3FB60 /* Main.storyboard */; };
+		77A7F8BA1659C45C00B9E5A0 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A7F8B51659C45C00B9E5A0 /* libTestFlight.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		770B0BF315B72A5D000405C6 /* black-gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "black-gradient.png"; path = "Images/black-gradient.png"; sourceTree = "<group>"; };
+		7710386715C4074F00CC9DA9 /* SettingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SettingsIcon.png; path = Images/SettingsIcon.png; sourceTree = "<group>"; };
+		7710386815C4074F00CC9DA9 /* SettingsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SettingsIcon@2x.png"; path = "Images/SettingsIcon@2x.png"; sourceTree = "<group>"; };
+		7710386D15C407ED00CC9DA9 /* LGV_SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGV_SettingsViewController.h; sourceTree = "<group>"; };
+		7710386E15C407ED00CC9DA9 /* LGV_SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGV_SettingsViewController.m; sourceTree = "<group>"; };
+		7712558E18F30C8A001CBB6D /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		7712558F18F30C8A001CBB6D /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		7712559018F30C8A001CBB6D /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
+		7712559118F30C8A001CBB6D /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		7712559218F30C8A001CBB6D /* AppIcon50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon50x50.png; sourceTree = "<group>"; };
+		7712559318F30C8A001CBB6D /* AppIcon50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon50x50@2x.png"; sourceTree = "<group>"; };
+		7712559418F30C8A001CBB6D /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57x57.png; sourceTree = "<group>"; };
+		7712559518F30C8A001CBB6D /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon57x57@2x.png"; sourceTree = "<group>"; };
+		7712559618F30C8A001CBB6D /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
+		7712559718F30C8A001CBB6D /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		7712559818F30C8A001CBB6D /* AppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon72x72.png; sourceTree = "<group>"; };
+		7712559918F30C8A001CBB6D /* AppIcon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon72x72@2x.png"; sourceTree = "<group>"; };
+		7712559A18F30C8A001CBB6D /* AppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon76x76.png; sourceTree = "<group>"; };
+		7712559B18F30C8A001CBB6D /* AppIcon76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76@2x.png"; sourceTree = "<group>"; };
+		7712559D18F30C8A001CBB6D /* iPadLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadLandscape.png; sourceTree = "<group>"; };
+		7712559E18F30C8A001CBB6D /* iPadLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadLandscape@2x.png"; sourceTree = "<group>"; };
+		7712559F18F30C8A001CBB6D /* iPadPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadPortrait.png; sourceTree = "<group>"; };
+		771255A018F30C8A001CBB6D /* iPadPortrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadPortrait@2x.png"; sourceTree = "<group>"; };
+		771255A118F30C8A001CBB6D /* iPadTallLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadTallLandscape.png; sourceTree = "<group>"; };
+		771255A218F30C8A001CBB6D /* iPadTallLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadTallLandscape@2x.png"; sourceTree = "<group>"; };
+		771255A318F30C8A001CBB6D /* iPadTallPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadTallPortrait.png; sourceTree = "<group>"; };
+		771255A418F30C8A001CBB6D /* iPadTallPortrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadTallPortrait@2x.png"; sourceTree = "<group>"; };
+		771255AF18F30F4D001CBB6D /* A_LGV_DigitalPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A_LGV_DigitalPanel.h; sourceTree = "<group>"; };
+		771255B018F30F4D001CBB6D /* A_LGV_DigitalPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A_LGV_DigitalPanel.m; sourceTree = "<group>"; };
+		771255B118F30F4D001CBB6D /* LGV_LEDDigitalPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGV_LEDDigitalPanel.h; sourceTree = "<group>"; };
+		771255B218F30F4D001CBB6D /* LGV_LEDDigitalPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGV_LEDDigitalPanel.m; sourceTree = "<group>"; };
+		771255B418F30F4D001CBB6D /* A_LGV_DigitalTimeDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A_LGV_DigitalTimeDisplay.h; sourceTree = "<group>"; };
+		771255B518F30F4D001CBB6D /* A_LGV_DigitalTimeDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A_LGV_DigitalTimeDisplay.m; sourceTree = "<group>"; };
+		771255B618F30F4D001CBB6D /* LGV_LEDDigitalTimeDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGV_LEDDigitalTimeDisplay.h; sourceTree = "<group>"; };
+		771255B718F30F4D001CBB6D /* LGV_LEDDigitalTimeDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGV_LEDDigitalTimeDisplay.m; sourceTree = "<group>"; };
+		771255B918F30F4D001CBB6D /* A_LGV_DigitUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A_LGV_DigitUIView.h; sourceTree = "<group>"; };
+		771255BA18F30F4D001CBB6D /* A_LGV_DigitUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A_LGV_DigitUIView.m; sourceTree = "<group>"; };
+		771255BB18F30F4D001CBB6D /* LGV_DynLEDDigitUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGV_DynLEDDigitUIView.h; sourceTree = "<group>"; };
+		771255BC18F30F4D001CBB6D /* LGV_DynLEDDigitUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGV_DynLEDDigitUIView.m; sourceTree = "<group>"; };
+		771255BE18F30F4D001CBB6D /* LGV_PickerScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGV_PickerScroller.h; sourceTree = "<group>"; };
+		771255BF18F30F4D001CBB6D /* LGV_PickerScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGV_PickerScroller.m; sourceTree = "<group>"; };
+		771255C118F30F4D001CBB6D /* LGV_PrizeWheelScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGV_PrizeWheelScroller.h; sourceTree = "<group>"; };
+		771255C218F30F4D001CBB6D /* LGV_PrizeWheelScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGV_PrizeWheelScroller.m; sourceTree = "<group>"; };
+		771255C418F30F4D001CBB6D /* RatchetClick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RatchetClick.wav; sourceTree = "<group>"; };
+		771255C618F30F4D001CBB6D /* LGV_SimplePrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGV_SimplePrefs.h; sourceTree = "<group>"; };
+		771255C718F30F4D001CBB6D /* LGV_SimplePrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGV_SimplePrefs.m; sourceTree = "<group>"; };
+		771255C918F30F4D001CBB6D /* LGV_SimpleRoundedRectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGV_SimpleRoundedRectButton.h; sourceTree = "<group>"; };
+		771255CA18F30F4D001CBB6D /* LGV_SimpleRoundedRectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGV_SimpleRoundedRectButton.m; sourceTree = "<group>"; };
+		771255F618F31346001CBB6D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7724D2FB15D2AA4E007934CB /* Beep_01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Beep_01.wav; sourceTree = "<group>"; };
+		77319F1215B4AD93006B27E4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7733B02C187F904D00A825BE /* A_LGV_MCNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A_LGV_MCNetworkManager.h; sourceTree = "<group>"; };
+		7733B02D187F904D00A825BE /* A_LGV_MCNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A_LGV_MCNetworkManager.m; sourceTree = "<group>"; };
+		7753747515C9388A0098D139 /* LGV_AppDelegate_Prefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGV_AppDelegate_Prefs.h; sourceTree = "<group>"; };
+		7760366218F3146600E965C8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7760366318F3146600E965C8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7760366A18F314F800E965C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../Speaker Beeper/Images.xcassets"; sourceTree = "<group>"; };
+		7764B03016580B5000E59ED8 /* Speaker Beeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speaker Beeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		776505E418981F7500C12425 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		7771A1191658337000B3FB60 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		777E323C15CC801300617D40 /* InfoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InfoIcon.png; path = Images/InfoIcon.png; sourceTree = "<group>"; };
+		777E323D15CC801300617D40 /* InfoIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "InfoIcon@2x.png"; path = "Images/InfoIcon@2x.png"; sourceTree = "<group>"; };
+		778F021B15C4CD6700668621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		778F022415C4D09300668621 /* LGV_PrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGV_PrefsViewController.h; sourceTree = "<group>"; };
+		778F022515C4D09300668621 /* LGV_PrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGV_PrefsViewController.m; sourceTree = "<group>"; };
+		77969E9E15CEE4960094E079 /* LGV_OperationalTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGV_OperationalTimerViewController.h; sourceTree = "<group>"; };
+		77969E9F15CEE4960094E079 /* LGV_OperationalTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGV_OperationalTimerViewController.m; sourceTree = "<group>"; };
+		77969EA015CEE4960094E079 /* LGV_OperationalTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LGV_OperationalTimerViewController.xib; sourceTree = "<group>"; };
+		77969EA415CF08BB0094E079 /* A_LGV_TimerBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A_LGV_TimerBaseViewController.h; sourceTree = "<group>"; };
+		77969EA515CF08BB0094E079 /* A_LGV_TimerBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A_LGV_TimerBaseViewController.m; sourceTree = "<group>"; };
+		77969EA715CF091E0094E079 /* A_LGV_PrototypeWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A_LGV_PrototypeWindow.h; sourceTree = "<group>"; };
+		77A405D815D535F30032349E /* Splinter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Splinter.png; path = Images/Splinter.png; sourceTree = "<group>"; };
+		77A7F8B51659C45C00B9E5A0 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		77A7F8B81659C45C00B9E5A0 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		77A9D74F15C1F72200C6EA1C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		77AEC8F7163DBDEB008E4CB6 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		77B6BF1B15D73B8E00A45D24 /* LGV_RoundedBackgroundPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGV_RoundedBackgroundPanel.h; sourceTree = "<group>"; };
+		77B6BF1C15D73B8E00A45D24 /* LGV_RoundedBackgroundPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGV_RoundedBackgroundPanel.m; sourceTree = "<group>"; };
+		77B744C315C5A45D00F58DB2 /* A_LGV_PrototypeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A_LGV_PrototypeWindow.m; sourceTree = "<group>"; };
+		77BCDED215D0630B005064BC /* RustyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RustyLogo.png; path = Images/RustyLogo.png; sourceTree = "<group>"; };
+		77BCDED715D0634A005064BC /* LGV_InfoWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGV_InfoWindowViewController.h; sourceTree = "<group>"; };
+		77BCDED815D0634A005064BC /* LGV_InfoWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGV_InfoWindowViewController.m; sourceTree = "<group>"; };
+		77FA8BA815ACC05F00F250DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77FA8BAA15ACC05F00F250DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77FA8BAC15ACC05F00F250DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77FA8BB015ACC05F00F250DB /* DigitalCountdownTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DigitalCountdownTimer-Info.plist"; sourceTree = "<group>"; };
+		77FA8BB215ACC05F00F250DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77FA8BB415ACC05F00F250DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77FA8BB615ACC05F00F250DB /* DigitalCountdownTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DigitalCountdownTimer-Prefix.pch"; sourceTree = "<group>"; };
+		77FA8BB715ACC05F00F250DB /* LGV_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LGV_AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		77FA8BB815ACC05F00F250DB /* LGV_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGV_AppDelegate.m; sourceTree = "<group>"; };
+		77FA8BC015ACC05F00F250DB /* LGV_TimerSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGV_TimerSettingsViewController.h; sourceTree = "<group>"; };
+		77FA8BC115ACC05F00F250DB /* LGV_TimerSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGV_TimerSettingsViewController.m; sourceTree = "<group>"; };
+		77FA8BD615ACC10000F250DB /* Stopwatch1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Stopwatch1.png; path = Images/Stopwatch1.png; sourceTree = "<group>"; };
+		77FA8BD715ACC10000F250DB /* Stopwatch1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stopwatch1@2x.png"; path = "Images/Stopwatch1@2x.png"; sourceTree = "<group>"; };
+		77FA8BD815ACC10000F250DB /* Stopwatch2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Stopwatch2.png; path = Images/Stopwatch2.png; sourceTree = "<group>"; };
+		77FA8BD915ACC10000F250DB /* Stopwatch2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stopwatch2@2x.png"; path = "Images/Stopwatch2@2x.png"; sourceTree = "<group>"; };
+		77FA8BDA15ACC10000F250DB /* Stopwatch3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Stopwatch3.png; path = Images/Stopwatch3.png; sourceTree = "<group>"; };
+		77FA8BDB15ACC10000F250DB /* Stopwatch3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stopwatch3@2x.png"; path = "Images/Stopwatch3@2x.png"; sourceTree = "<group>"; };
+		77FA8BE415ACC1FE00F250DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		77FBA8A515DAC9E3009BF929 /* speaker-beepr-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speaker-beepr-logo.png"; path = "DigitalCountdownTimer/Images/speaker-beepr-logo.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7764B00016580B5000E59ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776505E518981F7500C12425 /* MultipeerConnectivity.framework in Frameworks */,
+				7764B00116580B5000E59ED8 /* AudioToolbox.framework in Frameworks */,
+				7764B00216580B5000E59ED8 /* libz.dylib in Frameworks */,
+				7764B00316580B5000E59ED8 /* QuartzCore.framework in Frameworks */,
+				7764B00416580B5000E59ED8 /* UIKit.framework in Frameworks */,
+				7764B00516580B5000E59ED8 /* Foundation.framework in Frameworks */,
+				7764B00616580B5000E59ED8 /* CoreGraphics.framework in Frameworks */,
+				77A7F8BA1659C45C00B9E5A0 /* libTestFlight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7710386C15C407C900CC9DA9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7710386D15C407ED00CC9DA9 /* LGV_SettingsViewController.h */,
+				7710386E15C407ED00CC9DA9 /* LGV_SettingsViewController.m */,
+				778F022415C4D09300668621 /* LGV_PrefsViewController.h */,
+				778F022515C4D09300668621 /* LGV_PrefsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		7712558D18F30C8A001CBB6D /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				7712558E18F30C8A001CBB6D /* AppIcon29x29.png */,
+				7712558F18F30C8A001CBB6D /* AppIcon29x29@2x.png */,
+				7712559018F30C8A001CBB6D /* AppIcon40x40.png */,
+				7712559118F30C8A001CBB6D /* AppIcon40x40@2x.png */,
+				7712559218F30C8A001CBB6D /* AppIcon50x50.png */,
+				7712559318F30C8A001CBB6D /* AppIcon50x50@2x.png */,
+				7712559418F30C8A001CBB6D /* AppIcon57x57.png */,
+				7712559518F30C8A001CBB6D /* AppIcon57x57@2x.png */,
+				7712559618F30C8A001CBB6D /* AppIcon60x60.png */,
+				7712559718F30C8A001CBB6D /* AppIcon60x60@2x.png */,
+				7712559818F30C8A001CBB6D /* AppIcon72x72.png */,
+				7712559918F30C8A001CBB6D /* AppIcon72x72@2x.png */,
+				7712559A18F30C8A001CBB6D /* AppIcon76x76.png */,
+				7712559B18F30C8A001CBB6D /* AppIcon76x76@2x.png */,
+			);
+			name = AppIcons;
+			path = ../../AppIcons;
+			sourceTree = "<group>";
+		};
+		7712559C18F30C8A001CBB6D /* SplashScreens */ = {
+			isa = PBXGroup;
+			children = (
+				7760366218F3146600E965C8 /* Default.png */,
+				7760366318F3146600E965C8 /* Default@2x.png */,
+				771255F618F31346001CBB6D /* Default-568h@2x.png */,
+				7712559D18F30C8A001CBB6D /* iPadLandscape.png */,
+				7712559E18F30C8A001CBB6D /* iPadLandscape@2x.png */,
+				7712559F18F30C8A001CBB6D /* iPadPortrait.png */,
+				771255A018F30C8A001CBB6D /* iPadPortrait@2x.png */,
+				771255A118F30C8A001CBB6D /* iPadTallLandscape.png */,
+				771255A218F30C8A001CBB6D /* iPadTallLandscape@2x.png */,
+				771255A318F30C8A001CBB6D /* iPadTallPortrait.png */,
+				771255A418F30C8A001CBB6D /* iPadTallPortrait@2x.png */,
+			);
+			name = SplashScreens;
+			path = ../../SplashScreens;
+			sourceTree = "<group>";
+		};
+		771255AD18F30F4D001CBB6D /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				771255AE18F30F4D001CBB6D /* LGV_DigitalPanel */,
+				771255B318F30F4D001CBB6D /* LGV_DigitalTimeDisplay */,
+				771255B818F30F4D001CBB6D /* LGV_DigitView */,
+				771255BD18F30F4D001CBB6D /* LGV_PickerScroller */,
+				771255C018F30F4D001CBB6D /* LGV_PrizeWheelScroller */,
+				771255C518F30F4D001CBB6D /* LGV_SimplePrefs */,
+				771255C818F30F4D001CBB6D /* LGV_SimpleRoundedRectButton */,
+			);
+			name = Submodules;
+			path = ../../Submodules;
+			sourceTree = "<group>";
+		};
+		771255AE18F30F4D001CBB6D /* LGV_DigitalPanel */ = {
+			isa = PBXGroup;
+			children = (
+				771255AF18F30F4D001CBB6D /* A_LGV_DigitalPanel.h */,
+				771255B018F30F4D001CBB6D /* A_LGV_DigitalPanel.m */,
+				771255B118F30F4D001CBB6D /* LGV_LEDDigitalPanel.h */,
+				771255B218F30F4D001CBB6D /* LGV_LEDDigitalPanel.m */,
+			);
+			path = LGV_DigitalPanel;
+			sourceTree = "<group>";
+		};
+		771255B318F30F4D001CBB6D /* LGV_DigitalTimeDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				771255B418F30F4D001CBB6D /* A_LGV_DigitalTimeDisplay.h */,
+				771255B518F30F4D001CBB6D /* A_LGV_DigitalTimeDisplay.m */,
+				771255B618F30F4D001CBB6D /* LGV_LEDDigitalTimeDisplay.h */,
+				771255B718F30F4D001CBB6D /* LGV_LEDDigitalTimeDisplay.m */,
+			);
+			path = LGV_DigitalTimeDisplay;
+			sourceTree = "<group>";
+		};
+		771255B818F30F4D001CBB6D /* LGV_DigitView */ = {
+			isa = PBXGroup;
+			children = (
+				771255B918F30F4D001CBB6D /* A_LGV_DigitUIView.h */,
+				771255BA18F30F4D001CBB6D /* A_LGV_DigitUIView.m */,
+				771255BB18F30F4D001CBB6D /* LGV_DynLEDDigitUIView.h */,
+				771255BC18F30F4D001CBB6D /* LGV_DynLEDDigitUIView.m */,
+			);
+			path = LGV_DigitView;
+			sourceTree = "<group>";
+		};
+		771255BD18F30F4D001CBB6D /* LGV_PickerScroller */ = {
+			isa = PBXGroup;
+			children = (
+				771255BE18F30F4D001CBB6D /* LGV_PickerScroller.h */,
+				771255BF18F30F4D001CBB6D /* LGV_PickerScroller.m */,
+			);
+			path = LGV_PickerScroller;
+			sourceTree = "<group>";
+		};
+		771255C018F30F4D001CBB6D /* LGV_PrizeWheelScroller */ = {
+			isa = PBXGroup;
+			children = (
+				771255C118F30F4D001CBB6D /* LGV_PrizeWheelScroller.h */,
+				771255C218F30F4D001CBB6D /* LGV_PrizeWheelScroller.m */,
+				771255C318F30F4D001CBB6D /* sounds */,
+			);
+			path = LGV_PrizeWheelScroller;
+			sourceTree = "<group>";
+		};
+		771255C318F30F4D001CBB6D /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				771255C418F30F4D001CBB6D /* RatchetClick.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		771255C518F30F4D001CBB6D /* LGV_SimplePrefs */ = {
+			isa = PBXGroup;
+			children = (
+				771255C618F30F4D001CBB6D /* LGV_SimplePrefs.h */,
+				771255C718F30F4D001CBB6D /* LGV_SimplePrefs.m */,
+			);
+			path = LGV_SimplePrefs;
+			sourceTree = "<group>";
+		};
+		771255C818F30F4D001CBB6D /* LGV_SimpleRoundedRectButton */ = {
+			isa = PBXGroup;
+			children = (
+				771255C918F30F4D001CBB6D /* LGV_SimpleRoundedRectButton.h */,
+				771255CA18F30F4D001CBB6D /* LGV_SimpleRoundedRectButton.m */,
+			);
+			path = LGV_SimpleRoundedRectButton;
+			sourceTree = "<group>";
+		};
+		7724D2F915D2AA4E007934CB /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7724D2FB15D2AA4E007934CB /* Beep_01.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		77A7F8B41659C45C00B9E5A0 /* TestFlightSDK */ = {
+			isa = PBXGroup;
+			children = (
+				77A7F8B51659C45C00B9E5A0 /* libTestFlight.a */,
+				77A7F8B81659C45C00B9E5A0 /* TestFlight.h */,
+			);
+			name = TestFlightSDK;
+			path = DigitalCountdownTimer/TestFlightSDK;
+			sourceTree = "<group>";
+		};
+		77B2C59215ACE32000506FC7 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7753747515C9388A0098D139 /* LGV_AppDelegate_Prefs.h */,
+				77FA8BB715ACC05F00F250DB /* LGV_AppDelegate.h */,
+				77FA8BB815ACC05F00F250DB /* LGV_AppDelegate.m */,
+				7733B02C187F904D00A825BE /* A_LGV_MCNetworkManager.h */,
+				7733B02D187F904D00A825BE /* A_LGV_MCNetworkManager.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		77B2C59415ACE43200506FC7 /* Timer Views */ = {
+			isa = PBXGroup;
+			children = (
+				77969EA415CF08BB0094E079 /* A_LGV_TimerBaseViewController.h */,
+				77969EA515CF08BB0094E079 /* A_LGV_TimerBaseViewController.m */,
+				77FA8BC015ACC05F00F250DB /* LGV_TimerSettingsViewController.h */,
+				77FA8BC115ACC05F00F250DB /* LGV_TimerSettingsViewController.m */,
+				77969E9E15CEE4960094E079 /* LGV_OperationalTimerViewController.h */,
+				77969E9F15CEE4960094E079 /* LGV_OperationalTimerViewController.m */,
+				77B6BF1B15D73B8E00A45D24 /* LGV_RoundedBackgroundPanel.h */,
+				77B6BF1C15D73B8E00A45D24 /* LGV_RoundedBackgroundPanel.m */,
+			);
+			name = "Timer Views";
+			sourceTree = "<group>";
+		};
+		77BCB21815C5CEE7006FF567 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77969EA715CF091E0094E079 /* A_LGV_PrototypeWindow.h */,
+				77B744C315C5A45D00F58DB2 /* A_LGV_PrototypeWindow.m */,
+				77B2C59415ACE43200506FC7 /* Timer Views */,
+				7710386C15C407C900CC9DA9 /* Settings */,
+				77BCDED615D0632A005064BC /* Info */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		77BCDED615D0632A005064BC /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				77BCDED715D0634A005064BC /* LGV_InfoWindowViewController.h */,
+				77BCDED815D0634A005064BC /* LGV_InfoWindowViewController.m */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		77FA8B9915ACC05F00F250DB = {
+			isa = PBXGroup;
+			children = (
+				77AEC8F7163DBDEB008E4CB6 /* README */,
+				77FA8BAE15ACC05F00F250DB /* Project Files */,
+				77FA8BA715ACC05F00F250DB /* Frameworks */,
+				77FA8BA515ACC05F00F250DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77FA8BA515ACC05F00F250DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7764B03016580B5000E59ED8 /* Speaker Beeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77FA8BA715ACC05F00F250DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				776505E418981F7500C12425 /* MultipeerConnectivity.framework */,
+				77A7F8B41659C45C00B9E5A0 /* TestFlightSDK */,
+				77A9D74F15C1F72200C6EA1C /* AudioToolbox.framework */,
+				77319F1215B4AD93006B27E4 /* libz.dylib */,
+				77FA8BE415ACC1FE00F250DB /* QuartzCore.framework */,
+				77FA8BA815ACC05F00F250DB /* UIKit.framework */,
+				77FA8BAA15ACC05F00F250DB /* Foundation.framework */,
+				77FA8BAC15ACC05F00F250DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77FA8BAE15ACC05F00F250DB /* Project Files */ = {
+			isa = PBXGroup;
+			children = (
+				77FA8BD315ACC0B700F250DB /* Storyboards and Resources */,
+				77B2C59215ACE32000506FC7 /* App Delegate */,
+				77BCB21815C5CEE7006FF567 /* View Controllers */,
+				77FA8BAF15ACC05F00F250DB /* Supporting Files */,
+				771255AD18F30F4D001CBB6D /* Submodules */,
+			);
+			name = "Project Files";
+			path = DigitalCountdownTimer;
+			sourceTree = "<group>";
+		};
+		77FA8BAF15ACC05F00F250DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77FA8BB015ACC05F00F250DB /* DigitalCountdownTimer-Info.plist */,
+				77FA8BB115ACC05F00F250DB /* InfoPlist.strings */,
+				77FA8BB415ACC05F00F250DB /* main.m */,
+				77FA8BB615ACC05F00F250DB /* DigitalCountdownTimer-Prefix.pch */,
+				778F021A15C4CD6700668621 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77FA8BD315ACC0B700F250DB /* Storyboards and Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7760366A18F314F800E965C8 /* Images.xcassets */,
+				77969EA015CEE4960094E079 /* LGV_OperationalTimerViewController.xib */,
+				7771A1191658337000B3FB60 /* Main.storyboard */,
+				7724D2F915D2AA4E007934CB /* sounds */,
+				77FA8BD415ACC0C600F250DB /* Images */,
+			);
+			name = "Storyboards and Resources";
+			sourceTree = "<group>";
+		};
+		77FA8BD415ACC0C600F250DB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				77FBA8A515DAC9E3009BF929 /* speaker-beepr-logo.png */,
+				77A405D815D535F30032349E /* Splinter.png */,
+				77BCDED215D0630B005064BC /* RustyLogo.png */,
+				777E323C15CC801300617D40 /* InfoIcon.png */,
+				777E323D15CC801300617D40 /* InfoIcon@2x.png */,
+				770B0BF315B72A5D000405C6 /* black-gradient.png */,
+				77FA8BD615ACC10000F250DB /* Stopwatch1.png */,
+				77FA8BD715ACC10000F250DB /* Stopwatch1@2x.png */,
+				77FA8BD815ACC10000F250DB /* Stopwatch2.png */,
+				77FA8BD915ACC10000F250DB /* Stopwatch2@2x.png */,
+				77FA8BDA15ACC10000F250DB /* Stopwatch3.png */,
+				77FA8BDB15ACC10000F250DB /* Stopwatch3@2x.png */,
+				7710386715C4074F00CC9DA9 /* SettingsIcon.png */,
+				7710386815C4074F00CC9DA9 /* SettingsIcon@2x.png */,
+				7712558D18F30C8A001CBB6D /* AppIcons */,
+				7712559C18F30C8A001CBB6D /* SplashScreens */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7764AFEA16580B5000E59ED8 /* Speaker Beeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7764B02C16580B5000E59ED8 /* Build configuration list for PBXNativeTarget "Speaker Beeper" */;
+			buildPhases = (
+				7764AFEB16580B5000E59ED8 /* Sources */,
+				7764B00016580B5000E59ED8 /* Frameworks */,
+				7764B00716580B5000E59ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Speaker Beeper";
+			productName = DigitalCountdownTimer;
+			productReference = 7764B03016580B5000E59ED8 /* Speaker Beeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77FA8B9B15ACC05F00F250DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LGV_;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Little Green Viper Software Development LLC";
+				TargetAttributes = {
+					7764AFEA16580B5000E59ED8 = {
+						DevelopmentTeam = P53V4JS928;
+					};
+				};
+			};
+			buildConfigurationList = 77FA8B9E15ACC05F00F250DB /* Build configuration list for PBXProject "DigitalCountdownTimer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77FA8B9915ACC05F00F250DB;
+			productRefGroup = 77FA8BA515ACC05F00F250DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7764AFEA16580B5000E59ED8 /* Speaker Beeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7764B00716580B5000E59ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7764B00816580B5000E59ED8 /* InfoPlist.strings in Resources */,
+				7764B00916580B5000E59ED8 /* Stopwatch1.png in Resources */,
+				771255EF18F310B8001CBB6D /* AppIcon72x72@2x.png in Resources */,
+				7760366718F3149500E965C8 /* iPadTallLandscape@2x.png in Resources */,
+				7764B00A16580B5000E59ED8 /* Stopwatch1@2x.png in Resources */,
+				7760366418F3146600E965C8 /* Default.png in Resources */,
+				771255EE18F310B8001CBB6D /* AppIcon72x72.png in Resources */,
+				7764B00B16580B5000E59ED8 /* Stopwatch2.png in Resources */,
+				771255E918F310B8001CBB6D /* AppIcon50x50@2x.png in Resources */,
+				771255F718F31346001CBB6D /* Default-568h@2x.png in Resources */,
+				7764B00C16580B5000E59ED8 /* Stopwatch2@2x.png in Resources */,
+				771255E718F310B8001CBB6D /* AppIcon40x40@2x.png in Resources */,
+				7760366618F3149500E965C8 /* iPadTallLandscape.png in Resources */,
+				7760366518F3146600E965C8 /* Default@2x.png in Resources */,
+				7764B00D16580B5000E59ED8 /* Stopwatch3.png in Resources */,
+				771255ED18F310B8001CBB6D /* AppIcon60x60@2x.png in Resources */,
+				7764B00E16580B5000E59ED8 /* Stopwatch3@2x.png in Resources */,
+				7764B01016580B5000E59ED8 /* black-gradient.png in Resources */,
+				771255F018F310B8001CBB6D /* AppIcon76x76.png in Resources */,
+				7764B01116580B5000E59ED8 /* SettingsIcon.png in Resources */,
+				771255E418F310B8001CBB6D /* AppIcon29x29.png in Resources */,
+				7764B01216580B5000E59ED8 /* SettingsIcon@2x.png in Resources */,
+				771255E818F310B8001CBB6D /* AppIcon50x50.png in Resources */,
+				7764B01316580B5000E59ED8 /* Localizable.strings in Resources */,
+				7760366B18F314F800E965C8 /* Images.xcassets in Resources */,
+				7764B01416580B5000E59ED8 /* InfoIcon.png in Resources */,
+				771255EC18F310B8001CBB6D /* AppIcon60x60.png in Resources */,
+				771255D318F30F4D001CBB6D /* RatchetClick.wav in Resources */,
+				7764B01516580B5000E59ED8 /* InfoIcon@2x.png in Resources */,
+				7764B01A16580B5000E59ED8 /* LGV_OperationalTimerViewController.xib in Resources */,
+				7764B01B16580B5000E59ED8 /* RustyLogo.png in Resources */,
+				7764B01C16580B5000E59ED8 /* Beep_01.wav in Resources */,
+				771255E618F310B8001CBB6D /* AppIcon40x40.png in Resources */,
+				7760366918F3149500E965C8 /* iPadTallPortrait@2x.png in Resources */,
+				771255EA18F310B8001CBB6D /* AppIcon57x57.png in Resources */,
+				7764B02016580B5000E59ED8 /* Splinter.png in Resources */,
+				7760366818F3149500E965C8 /* iPadTallPortrait.png in Resources */,
+				771255EB18F310B8001CBB6D /* AppIcon57x57@2x.png in Resources */,
+				7764B02816580B5000E59ED8 /* speaker-beepr-logo.png in Resources */,
+				771255E518F310B8001CBB6D /* AppIcon29x29@2x.png in Resources */,
+				7764B02A16580B5000E59ED8 /* README in Resources */,
+				771255F118F310B8001CBB6D /* AppIcon76x76@2x.png in Resources */,
+				7771A11A1658337000B3FB60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7764AFEB16580B5000E59ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771255CF18F30F4D001CBB6D /* A_LGV_DigitUIView.m in Sources */,
+				7764AFEC16580B5000E59ED8 /* main.m in Sources */,
+				7764AFED16580B5000E59ED8 /* LGV_AppDelegate.m in Sources */,
+				771255D118F30F4D001CBB6D /* LGV_PickerScroller.m in Sources */,
+				771255CD18F30F4D001CBB6D /* A_LGV_DigitalTimeDisplay.m in Sources */,
+				7764AFEE16580B5000E59ED8 /* LGV_TimerSettingsViewController.m in Sources */,
+				771255D418F30F4D001CBB6D /* LGV_SimplePrefs.m in Sources */,
+				771255D218F30F4D001CBB6D /* LGV_PrizeWheelScroller.m in Sources */,
+				7764AFEF16580B5000E59ED8 /* LGV_SettingsViewController.m in Sources */,
+				771255D018F30F4D001CBB6D /* LGV_DynLEDDigitUIView.m in Sources */,
+				771255CE18F30F4D001CBB6D /* LGV_LEDDigitalTimeDisplay.m in Sources */,
+				771255D518F30F4D001CBB6D /* LGV_SimpleRoundedRectButton.m in Sources */,
+				7764AFF016580B5000E59ED8 /* LGV_PrefsViewController.m in Sources */,
+				771255CB18F30F4D001CBB6D /* A_LGV_DigitalPanel.m in Sources */,
+				771255CC18F30F4D001CBB6D /* LGV_LEDDigitalPanel.m in Sources */,
+				7764AFF116580B5000E59ED8 /* A_LGV_PrototypeWindow.m in Sources */,
+				7764AFF216580B5000E59ED8 /* LGV_OperationalTimerViewController.m in Sources */,
+				7764AFF316580B5000E59ED8 /* A_LGV_TimerBaseViewController.m in Sources */,
+				7764AFF416580B5000E59ED8 /* LGV_InfoWindowViewController.m in Sources */,
+				7764AFF516580B5000E59ED8 /* LGV_RoundedBackgroundPanel.m in Sources */,
+				7733B02E187F904D00A825BE /* A_LGV_MCNetworkManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		778F021A15C4CD6700668621 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				778F021B15C4CD6700668621 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		77FA8BB115ACC05F00F250DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77FA8BB215ACC05F00F250DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7706364915DE8B9E00A50B57 /* Final Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Final Release";
+		};
+		7764B02D16580B5000E59ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitalCountdownTimer/DigitalCountdownTimer-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DigitalCountdownTimer/Speaker Beeper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DigitalCountdownTimer/TestFlightSDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.littlegreenviper.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Speaker Beeper";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7764B02E16580B5000E59ED8 /* Testing Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitalCountdownTimer/DigitalCountdownTimer-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DigitalCountdownTimer/Speaker Beeper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DigitalCountdownTimer/TestFlightSDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.littlegreenviper.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Speaker Beeper";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Testing Release";
+		};
+		7764B02F16580B5000E59ED8 /* Final Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Little Green Viper Software Development LLC (P53V4JS928)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitalCountdownTimer/DigitalCountdownTimer-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DigitalCountdownTimer/Speaker Beeper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DigitalCountdownTimer/TestFlightSDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.littlegreenviper.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Speaker Beeper";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Final Release";
+		};
+		77FA8BCE15ACC05F00F250DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77FA8BCF15ACC05F00F250DB /* Testing Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Testing Release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7764B02C16580B5000E59ED8 /* Build configuration list for PBXNativeTarget "Speaker Beeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7764B02D16580B5000E59ED8 /* Debug */,
+				7764B02E16580B5000E59ED8 /* Testing Release */,
+				7764B02F16580B5000E59ED8 /* Final Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Testing Release";
+		};
+		77FA8B9E15ACC05F00F250DB /* Build configuration list for PBXProject "DigitalCountdownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FA8BCE15ACC05F00F250DB /* Debug */,
+				77FA8BCF15ACC05F00F250DB /* Testing Release */,
+				7706364915DE8B9E00A50B57 /* Final Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Testing Release";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77FA8B9B15ACC05F00F250DB /* Project object */;
+}

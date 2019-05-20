@@ -1,0 +1,95 @@
+/***********************************************************/
+
+"TIMER-1" = "Timer 1";
+"TIMER-2" = "Timer 2";
+"TIMER-3" = "Timer 3";
+"SETTINGS" = "Settings";
+"INFO" = "Info";
+
+"RESET TO" = "Reset to";
+"RESET-TIMER" = "Reset to 00:00:00";
+"CLEAR" = "Clear";
+"TIMER-SETTINGS" = "Prefs";
+
+"SCROLL SPEED" = "Scrolling Speed:";
+"SLOW" = "Slow";
+"FAST" = "Fast";
+"SCROLLING-SOUNDS" = "Scrolling Sounds:";
+"VISUAL-FEEDBACK" = "Show Scrolling Arrows:";
+"COMMANDER-MODE" = "Commander Mode:";
+"COMMANDER-MC-FORMAT" = "SpeakerBeeper Commander (%@)";
+"SLAVE-MC-FORMAT" = "SpeakerBeeper Slave (%@)";
+
+"ALARM" = "Timer Complete!";
+"OK-BUTTON" = "OK";
+
+"QUIET-MODE" = "Podium Speaker Mode (No Clock or Sounds):";
+"AUTO-THRESHOLD" = "Automatically Set Warning Thresholds:";
+"PODIUM-MODE" = "Podium Mode";
+"DIGITAL-MODE" = "Digital Mode";
+"SLAVE-MODE" = "Slave Mode";
+"SLAVE-MODE-CANT" = "This app is in Commander Mode. This Mode is not operational.";
+"COMPLETION-SOUND" = "Timer Completion Sound:";
+"OFF" = "Off";
+"LOUD" = "Loud";
+"VIBRATE-ONLY" = "Vibration Only";
+"CONNECTED-COMMANDERS-FORMAT" = "This timer is connected to %@ as a commander.";
+"ERROR-COMMANDER" = "This timer is not connected to any commanders, and will not operate.";
+
+"ERROR-DOMAIN-CONNECTION" = "Connection Error";
+"ERROR-CONNECTION-REFUSED" = "Could Not Connect to the Remote Commander.";
+"ERROR-CANCEL-BUTTON" = "OK";
+
+"START" = "Start Timer";
+"CONTINUE" = "Continue Timer";
+"DISABLED" = "Set the Time by Swiping Up and Down Over the Numbers.";
+
+"LGV-URI" = "http://littlegreenviper.com";
+"LGV-BYLINE" = "By Little Green Viper Software Development LLC";
+"VERSION" = "Version %@";
+
+"ADAM" = "Adam Steinhauser";
+"ADAM-FUNCTION" = "UX Development";
+"ADAM-URI" = "http://logicwebmedia.com";
+
+"CHRIS" = "Chris Marshall";
+"CHRIS-FUNCTION" = "Software Development";
+"CHRIS-URI" = "http://littlegreenviper.com";
+
+"INSTRUCTIONS" = "Instructions";
+"INSTRUCTIONS-TEXT" =
+"Swipe up and down on the digits displayed in the setting screen to set the time. The sensitivity of the swipe response can be changed in the \"Settings\" tab. You can also choose to have it flash some arrows, indicating the direction of the scroll, and it can make soft clicking sounds as you scroll.\
+\
+There are three timers in the app. Each one can be set independently, but only one can run at a time.\
+\
+To set a timer, swipe on the numbers to go through a lot of numbers, then tap on the upper part or lower part of the number in order to precisely set time. You can set the ime in 1-second increments, and the maximum time is 23 hours, 59 minutes and 59 seconds.\
+\
+When a time is set, a large green button appears. You tap on this button to start the timer going.\
+\
+When a timer runs, it takes over the entire screen and displays either the Digital Mode countdown, or the Podium Mode lights.\
+\
+To stop a running timer, simply touch the screen in the center. The timer will return to the setting screen. The Digital Mode timer will remember its time, and can be continued, but the Podium Mode timer will always reset to the previously set time.\
+\
+When the Digital Mode time is different from the original setting, a \"Reset\" button will appear next to the Continue Button. Pressing this button will set the clock to the previously set time. Swiping on the numbers will create a new setting, and the Reset Button will disappear.\
+\
+Digital Mode is a standard digital countdown timer. When it is complete, it can make a beep, and will also continue counting upward, with the numbers flashing red.\
+\
+In order to hear the beep, the phone should be out of silent mode. The phone will vibrate as it beeps (iPhone only), and there is a \"vibration only\" setting (Which will only apply to the iPhone).\
+\
+Podium Mode is a very simple, non-distracting mode that will show when various thresholds of time have been crossed.\
+\
+Podium Mode was designed specifically for public speakers that don't want to be distracted by constantly moving numbers.\
+\
+There are two thresholds for Podium Mode: Warning and Final.\
+\
+Warning threshold is designated by a yellow light. It indicates that the speaker needs to start preparing to \"wind down\" their talk.\
+\
+Final threshold is designated by a red light, and means that the time is almost up; so the speaker needs to stop talking almost immediately.\
+\
+When the time is up completely in Podium Mode, the Final Light starts blinking.\
+\
+In order to set a threshold, you adjust the timer to a certain time, then press one of the threshold buttons (either yellow or red). The button then sets itself to the time on the display.\
+\
+This option is only available if \"Automatically Set Warning Thresholds\" is OFF in the timer prefs. If it is ON, then you will not be able to set the threshold times.\
+\
+You can select the mode that you want to use for each of the three timers in the timer Prefs (For example: one may be a Digital Mode timer, and another could be a Podium Mode timer).";

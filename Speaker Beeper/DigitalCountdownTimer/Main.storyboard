@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="U7Z-Ot-t6f">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller - TIMER-2-->
+        <scene sceneID="5ic-TG-4lf">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="kvb-ow-m6C" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="2" title="TIMER-2" image="Stopwatch2" id="nYZ-LX-9sy"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="vnN-zj-ZUP">
+                        <rect key="frame" x="0.0" y="-44" width="0.0" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.31278351814516131" green="1" blue="0.5444178427419355" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xat-4R-8lg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="753"/>
+        </scene>
+        <!--Navigation Controller - TIMER-3-->
+        <scene sceneID="0FG-BD-MlL">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="Zo1-2g-MhM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="3" title="TIMER-3" image="Stopwatch3" id="hYc-D6-OkY"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="wg4-Pc-C0e">
+                        <rect key="frame" x="0.0" y="-44" width="0.0" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.99607843139999996" green="0.85882352939999995" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EAa-0s-gOT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="1260"/>
+        </scene>
+        <!--Navigation Controller - TIMER-1-->
+        <scene sceneID="5c6-hh-6ZA">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="wGz-sK-EWd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="1" title="TIMER-1" image="Stopwatch1" id="PEy-9A-9uJ"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="g6l-J8-tMP">
+                        <rect key="frame" x="0.0" y="-44" width="0.0" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.65357232860000003" green="0.65432837700000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ChO-fh-KdI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="259"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="PXr-Tx-q1d">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="U7Z-Ot-t6f" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <tabBar key="tabBar" tag="1" contentMode="scaleToFill" id="cq4-J5-cfQ">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="n5I-lO-68f" kind="relationship" relationship="viewControllers" id="mHl-mS-Sty"/>
+                        <segue destination="wGz-sK-EWd" kind="relationship" relationship="viewControllers" id="Nj5-gO-qSG"/>
+                        <segue destination="kvb-ow-m6C" kind="relationship" relationship="viewControllers" id="bfq-Ai-S4G"/>
+                        <segue destination="Zo1-2g-MhM" kind="relationship" relationship="viewControllers" id="Tb7-7O-3YJ"/>
+                        <segue destination="JDo-GX-Ssi" kind="relationship" relationship="viewControllers" id="9uL-1n-fhr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LHM-Y5-gni" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-94" y="259"/>
+        </scene>
+        <!--Timer Settings View Controller - Prototype Timer View Controller-->
+        <scene sceneID="zTH-cv-NAP">
+            <objects>
+                <viewController storyboardIdentifier="prototype-timer" title="Prototype Timer View Controller" id="B2l-DB-Rmr" customClass="LGV_TimerSettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hvS-jO-nnU">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="271"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="25S-n0-Ko4" userLabel="Top Button Bar">
+                                <rect key="frame" x="30" y="20" width="420" height="26"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gyw-mb-NBx" userLabel="Clear Timer" customClass="LGV_SimpleRoundedRectButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="76" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <size key="titleShadowOffset" width="0.0" height="1"/>
+                                        <state key="normal" title="CLEAR">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="disabled">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" red="0.82999840560000004" green="0.82999840560000004" blue="0.82999840560000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="clearButtonHit:" destination="B2l-DB-Rmr" eventType="touchUpInside" id="rtn-R7-pdM"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" id="rPQ-es-KkG" userLabel="Threshold Buttons">
+                                        <rect key="frame" x="84" y="0.0" width="253" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="BIW-DV-tIO" userLabel="Warning Threshold" customClass="LGV_SimpleRoundedRectButton">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="26"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.94662786990000003" green="0.94554806769999999" blue="0.00195786739" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <size key="titleShadowOffset" width="0.0" height="1"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="yellowButtonHit:" destination="B2l-DB-Rmr" eventType="touchUpInside" id="ACR-KT-DE2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="doL-j6-t1J" userLabel="Final Threshold" customClass="LGV_SimpleRoundedRectButton">
+                                                <rect key="frame" x="134" y="0.0" width="120" height="26"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.24294354839999999" blue="0.19540700599999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <size key="titleShadowOffset" width="0.0" height="1"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="redButtonHit:" destination="B2l-DB-Rmr" eventType="touchUpInside" id="4w9-FA-H15"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oAo-9h-OZ4" userLabel="Timer Prefs" customClass="LGV_SimpleRoundedRectButton">
+                                        <rect key="frame" x="345" y="0.0" width="75" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <size key="titleShadowOffset" width="0.0" height="1"/>
+                                        <state key="normal" title="TIMER-SETTINGS">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="prefsButtonHit:" destination="B2l-DB-Rmr" eventType="touchUpInside" id="Sp3-a0-0xh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleAspectFill" id="tXm-LE-AO2" userLabel="Main Items View">
+                                <rect key="frame" x="20" y="54" width="440" height="160"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="tDB-2i-u9b" customClass="LGV_LEDDigitalTimeDisplay">
+                                        <rect key="frame" x="10" y="0.0" width="420" height="127"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="pin-uX-GfG" userLabel="Start Bar View">
+                                <rect key="frame" x="20" y="214" width="440" height="57"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="vfA-OQ-Lul" userLabel="Start Button" customClass="LGV_SimpleRoundedRectButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="440" height="57"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <size key="titleShadowOffset" width="0.0" height="1"/>
+                                        <state key="normal" title="START">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="disabled">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" red="1" green="0.24294354839999999" blue="0.19540700599999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="startTimer:" destination="B2l-DB-Rmr" eventType="touchUpInside" id="p3t-s8-0RI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g5p-B3-re8" userLabel="Reset Timer" customClass="LGV_SimpleRoundedRectButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="181" height="57"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <size key="titleShadowOffset" width="0.0" height="1"/>
+                                        <state key="normal" title="RESET-TIMER">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="disabled">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" red="0.82999840560000004" green="0.82999840560000004" blue="0.82999840560000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="resetButtonHit:" destination="B2l-DB-Rmr" eventType="touchUpInside" id="CJv-FI-dXK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.14884702620967741" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="TIMER" id="9en-gA-Pj8"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <connections>
+                        <outlet property="clearStandaloneButton" destination="gyw-mb-NBx" id="iw8-gO-cbK"/>
+                        <outlet property="finalThresholdButton" destination="doL-j6-t1J" id="VDc-ux-xuP"/>
+                        <outlet property="mainItemsView" destination="tXm-LE-AO2" id="LpJ-1a-m2Z"/>
+                        <outlet property="prefsStandaloneButton" destination="oAo-9h-OZ4" id="aHW-EF-bBV"/>
+                        <outlet property="resetStandaloneButton" destination="g5p-B3-re8" id="mgd-yE-3x9"/>
+                        <outlet property="standaloneButtons" destination="25S-n0-Ko4" id="PVy-ST-pga"/>
+                        <outlet property="startBarView" destination="pin-uX-GfG" id="x6y-Lx-t20"/>
+                        <outlet property="startButton" destination="vfA-OQ-Lul" id="wpz-3b-0ev"/>
+                        <outlet property="thresholdButtons" destination="rPQ-es-KkG" id="7gx-6g-lSK"/>
+                        <outlet property="timeDisplay" destination="tDB-2i-u9b" id="Sip-pD-aqg"/>
+                        <outlet property="warningThresholdButton" destination="BIW-DV-tIO" id="DMP-7P-aye"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z9I-0Q-jLj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="-841"/>
+        </scene>
+        <!--Timer Prefs View Controller-->
+        <scene sceneID="VTm-8s-Srr">
+            <objects>
+                <viewController storyboardIdentifier="timer-settings-prototype" definesPresentationContext="YES" hidesBottomBarWhenPushed="YES" id="hCB-x7-Ced" userLabel="Timer Prefs View Controller" customClass="LGV_PrefsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6iE-5Q-DtD">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="ldk-up-VAa" userLabel="Popover Layout Container">
+                                <rect key="frame" x="0.0" y="60" width="480" height="260"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="uOe-HZ-dQq">
+                                        <rect key="frame" x="20" y="6" width="440" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="DIGITAL-MODE"/>
+                                            <segment title="PODIUM-MODE"/>
+                                            <segment title="SLAVE-MODE"/>
+                                        </segments>
+                                    </segmentedControl>
+                                    <view contentMode="scaleToFill" id="ko7-4o-4Ay" userLabel="Sound Controller Container">
+                                        <rect key="frame" x="20" y="50" width="440" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="tYI-pA-wpz">
+                                                <rect key="frame" x="20" y="30" width="400" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <segments>
+                                                    <segment title="OFF"/>
+                                                    <segment title="VIBRATE"/>
+                                                    <segment title="ON"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="soundModeChanged:" destination="hCB-x7-Ced" eventType="valueChanged" id="Umc-K8-b8g"/>
+                                                </connections>
+                                            </segmentedControl>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="COMPLETION-SOUND" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="O0V-yj-YzR">
+                                                <rect key="frame" x="0.0" y="0.0" width="435" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="oEp-lX-fuI" userLabel="Auto Threshold View">
+                                        <rect key="frame" x="0.0" y="50" width="480" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" id="zxB-oQ-uiu">
+                                                <rect key="frame" x="409" y="5" width="51" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                            </switch>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="AUTO-THRESHOLD" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ed8-uA-19h">
+                                                <rect key="frame" x="19.999997157113654" y="8" width="353" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view hidden="YES" contentMode="scaleToFill" id="m8a-Pi-yIE" userLabel="Commander Listing Container">
+                                        <rect key="frame" x="0.0" y="50" width="480" height="210"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gaq-K6-AXl" userLabel="Commander Display Label">
+                                                <rect key="frame" x="20" y="0.0" width="440" height="19"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="TIMER-SETTINGS" id="BuU-Ft-MLV"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="autoThresholdGroup" destination="oEp-lX-fuI" id="7gW-Qd-bBr"/>
+                        <outlet property="autoThresholdLabel" destination="ed8-uA-19h" id="oTS-Vx-Lcz"/>
+                        <outlet property="autoThresholdSwitch" destination="zxB-oQ-uiu" id="prd-b1-ILF"/>
+                        <outlet property="mainContainerView" destination="ldk-up-VAa" id="b7j-kE-4Dg"/>
+                        <outlet property="modeSelectionSwitch" destination="uOe-HZ-dQq" id="Wsb-uJ-4Z0"/>
+                        <outlet property="peerReportContainer" destination="m8a-Pi-yIE" id="ZIG-rr-o4f"/>
+                        <outlet property="peerReportLabel" destination="Gaq-K6-AXl" id="WZl-re-mCZ"/>
+                        <outlet property="soundLabel" destination="O0V-yj-YzR" id="BQO-tb-PVu"/>
+                        <outlet property="soundSelectionGroup" destination="ko7-4o-4Ay" id="1ou-jg-oYn"/>
+                        <outlet property="soundSelectionSegmentedControl" destination="tYI-pA-wpz" id="clG-c4-bL5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8mi-pl-jGU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1203" y="-841"/>
+        </scene>
+        <!--Settings View Controller - SETTINGS-->
+        <scene sceneID="bbS-mK-ju2">
+            <objects>
+                <viewController id="JDo-GX-Ssi" customClass="LGV_SettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5fd-kf-pvc">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="peu-aU-3Sr" userLabel="Scroll Speed Group">
+                                <rect key="frame" x="20" y="20" width="440" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="SCROLL SPEED" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="JuU-5N-MBz">
+                                        <rect key="frame" x="0.0" y="10" width="187" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="1" maxValue="7" id="Gbf-5X-k8H">
+                                        <rect key="frame" x="239" y="10" width="161" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="scrollSpeedChanged:" destination="JDo-GX-Ssi" eventType="valueChanged" id="h0d-cK-SYA"/>
+                                        </connections>
+                                    </slider>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="SLOW" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="z37-n2-kS2">
+                                        <rect key="frame" x="190" y="10" width="43" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="FAST" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Ri4-FC-sZW">
+                                        <rect key="frame" x="406" y="10" width="43" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="h9z-yY-p96" userLabel="Scrolling Sounds Group">
+                                <rect key="frame" x="20" y="69" width="440" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="SCROLLING-SOUNDS" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ZZN-hh-Jdl">
+                                        <rect key="frame" x="0.0" y="8" width="353" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="nH2-X0-4zY">
+                                        <rect key="frame" x="361" y="5" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="scrollingSoundsChanged:" destination="JDo-GX-Ssi" eventType="valueChanged" id="iaj-at-rO3"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="dgs-vo-tOH" userLabel="Visual Feedback Group">
+                                <rect key="frame" x="20" y="115" width="440" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="VISUAL-FEEDBACK" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="owZ-X8-jT7">
+                                        <rect key="frame" x="0.0" y="8" width="353" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="vwu-Xv-cQG">
+                                        <rect key="frame" x="361" y="5" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="visualFeedbackChanged:" destination="JDo-GX-Ssi" eventType="valueChanged" id="b8o-ic-Pg6"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="0zA-Q0-DkH" userLabel="Commander Mode Group">
+                                <rect key="frame" x="20" y="161" width="440" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="COMMANDER-MODE" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="u1z-0O-AMY">
+                                        <rect key="frame" x="0.0" y="8" width="353" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="hCT-H2-zgY">
+                                        <rect key="frame" x="361" y="5" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="commanderModeChanged:" destination="JDo-GX-Ssi" eventType="valueChanged" id="UnG-UE-zVV"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="4" title="SETTINGS" image="SettingsIcon" id="9Wg-uQ-FAf"/>
+                    <connections>
+                        <outlet property="commander_mode_label" destination="u1z-0O-AMY" id="O2D-TT-fFS"/>
+                        <outlet property="commander_mode_switch" destination="hCT-H2-zgY" id="CJm-Qm-ADL"/>
+                        <outlet property="scroll_speed_fast_label" destination="Ri4-FC-sZW" id="aOg-78-mbg"/>
+                        <outlet property="scroll_speed_label" destination="JuU-5N-MBz" id="gfy-fJ-SNs"/>
+                        <outlet property="scroll_speed_slider" destination="Gbf-5X-k8H" id="OLP-db-zJd"/>
+                        <outlet property="scroll_speed_slow_label" destination="z37-n2-kS2" id="GEo-53-Rog"/>
+                        <outlet property="scrolling_sounds_label" destination="ZZN-hh-Jdl" id="EzP-VM-pz9"/>
+                        <outlet property="scrolling_sounds_switch" destination="nH2-X0-4zY" id="4Pk-an-ufd"/>
+                        <outlet property="visual_feedback_label" destination="owZ-X8-jT7" id="fYc-yL-qKq"/>
+                        <outlet property="visual_feedback_switch" destination="vwu-Xv-cQG" id="IAx-4w-LrB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mYV-SW-oug" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="1742"/>
+        </scene>
+        <!--INFO-->
+        <scene sceneID="Rn9-R1-RhI">
+            <objects>
+                <viewController id="n5I-lO-68f" userLabel="INFO" customClass="LGV_InfoWindowViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kpj-AH-LrF">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="aME-ke-NwA" userLabel="Info Container View">
+                                <rect key="frame" x="218" y="20" width="253" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="fxM-t6-EPo" userLabel="LGV Info View" customClass="LGV_RoundedBackgroundPanel">
+                                        <rect key="frame" x="0.0" y="137" width="253" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="CHRIS-FUNCTION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="hqr-pz-Fge">
+                                                <rect key="frame" x="114" y="22" width="129" height="15"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ADAM-FUNCTION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="v6F-lr-bdg">
+                                                <rect key="frame" x="113" y="61" width="130" height="14"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OBO-Th-Wpg" userLabel="Chris Button">
+                                                <rect key="frame" x="114" y="6" width="129" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <state key="normal" title="CHRIS">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="resolveChrisLink:" destination="n5I-lO-68f" eventType="touchUpInside" id="84t-4t-9QL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kHc-rY-NhB" userLabel="Adam Button">
+                                                <rect key="frame" x="113" y="50" width="130" height="13"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <state key="normal" title="ADAM">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="resolveAdamLink:" destination="n5I-lO-68f" eventType="touchUpInside" id="8DB-50-kuI"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="re1-WG-QaW" userLabel="LGV Logo Button">
+                                                <rect key="frame" x="9" y="21" width="98" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" image="RustyLogo.png">
+                                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="resolveLGVLink:" destination="n5I-lO-68f" eventType="touchUpInside" id="YEB-Rl-8L7"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" id="wkC-HV-zWK">
+                                                <rect key="frame" x="109" y="15" width="1" height="56"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="35L-kW-2bG" userLabel="Logo View">
+                                        <rect key="frame" x="0.0" y="-12" width="253" height="126"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="speaker-beepr-logo.png" id="gA8-Hq-3s0">
+                                                <rect key="frame" x="99" y="20" width="55" height="62"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="APP-TITLE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Frz-hN-AuT">
+                                                <rect key="frame" x="8" y="90" width="237" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="VERSION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="veP-z3-CBd">
+                                                <rect key="frame" x="8" y="112" width="237" height="13"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="10"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9sR-od-wag">
+                                                <rect key="frame" x="8" y="126" width="237" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="10"/>
+                                                <state key="normal" title="LGV-BYLINE">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="resolveLGVLink:" destination="n5I-lO-68f" eventType="touchUpInside" id="Pdv-If-Wxv"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Jjx-Rx-9vC" customClass="LGV_RoundedBackgroundPanel">
+                                <rect key="frame" x="6" y="17" width="204" height="295"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" indicatorStyle="white" editable="NO" text="INSTRUCTIONS-TEXT" id="tec-iZ-Z8h">
+                                        <rect key="frame" x="7" y="14" width="191" height="269"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="INSTRUCTIONS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="uin-Ka-5Zx">
+                                        <rect key="frame" x="11" y="5" width="173" height="16"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="5" title="INFO" image="InfoIcon" id="iDu-GJ-ckH"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="adamFunctionLabel" destination="v6F-lr-bdg" id="cuQ-ej-BOU"/>
+                        <outlet property="adamLabel" destination="kHc-rY-NhB" id="8Cm-Ut-MqT"/>
+                        <outlet property="appTitleLabel" destination="Frz-hN-AuT" id="zgl-zk-SfZ"/>
+                        <outlet property="chrisFunctionLabel" destination="hqr-pz-Fge" id="Cfo-KY-PVy"/>
+                        <outlet property="chrisLabel" destination="OBO-Th-Wpg" id="QJn-Hl-9vX"/>
+                        <outlet property="instructionsLabel" destination="uin-Ka-5Zx" id="PoE-N0-eJ0"/>
+                        <outlet property="instructionsText" destination="tec-iZ-Z8h" id="q0s-pb-cWM"/>
+                        <outlet property="lgvByLineLabel" destination="9sR-od-wag" id="Bep-ei-mVP"/>
+                        <outlet property="lgvInfoView" destination="fxM-t6-EPo" id="eko-MO-ke0"/>
+                        <outlet property="lgvPicture" destination="re1-WG-QaW" id="pON-wy-Rpx"/>
+                        <outlet property="scrollerBackground" destination="Jjx-Rx-9vC" id="gXb-sL-VqZ"/>
+                        <outlet property="versionLabel" destination="veP-z3-CBd" id="eBy-ej-iIh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5fQ-55-7Wi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="-230"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="InfoIcon" width="16" height="16"/>
+        <image name="RustyLogo.png" width="335" height="128"/>
+        <image name="SettingsIcon" width="16" height="16"/>
+        <image name="Stopwatch1" width="16" height="16"/>
+        <image name="Stopwatch2" width="16" height="16"/>
+        <image name="Stopwatch3" width="16" height="16"/>
+        <image name="speaker-beepr-logo.png" width="128" height="140"/>
+    </resources>
+    <color key="tintColor" red="0.00038747176139999998" green="1" blue="0.1734762235" alpha="1" colorSpace="calibratedRGB"/>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

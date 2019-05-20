@@ -1,0 +1,238 @@
+DESCRIPTION
+-----------
+
+This is a countown-only timer. It is special in that in has a "Podium Mode," in which no distracting time display is shown; only three "lights."
+These are green (keep yakking), yellow (start wrapping it up) and red (shaddup).
+The digital display acts just like any other timer.
+
+This timer is also special in that it has been designed with speed, accuracy, efficiency, package size and quality in mind.
+
+It rocks.
+
+REQUIREMENTS
+------------
+This is an iOS app, made for iPhones and iPads. It is only available via the Apple App Store, and requires iOS 5.0 or above.
+
+INSTALLATION
+------------
+
+This will be installed via the Apple App Store.
+
+LICENSE
+-------
+
+This is proprietary and copyrighted code, belonging to Little Green Viper Software Development LLC.
+
+All rights are reserved, and this code is not to be used without the explicit written permission of Little Green Viper Software Development LLC.
+
+http://littlegreenviper.net
+
+CHANGELOG
+---------
+* 2.0
+* TBD
+* Added a "Commander/Slave" mode, that uses the GameKit networking to allow a "Commander" app to control multiple "Slave" apps.
+
+* 1.5.0
+* April 8, 2014
+* Widened the Start and Reset buttons.
+* Flattened out the appearance for iOS 7.0
+* Made it so that you need to tap in the lights or the numbers to dismiss the counter. It was too easy to dismiss it accidentally, before.
+* The toolbar icons now highlight with the same color as the digits.
+* Made it so that we can select the digit colors via Interface Builder. You set the tint color for the view.
+* This version will be deployed for iOS 7 only.
+* Made the Digital Mode beep selection OFF/VBRATE/ON. No more slider.
+* Introduced auto layout.
+
+* 1.0.3
+* Not Released
+* Rearranged project for the new Perforce depot.
+
+* 1.0.2
+* September 17, 2012
+* Adapted for iPhone 5 screen.
+
+* 1.0.1
+* September 3, 2012
+* No change from 1.0.1d1 -Official Release
+
+* 1.0.1d1
+* August 19, 2012
+* Further reduced the size of the app by reducing the size of the splash screens. They are displayed for such a short time (because the app loads like greased lighting), that there's no reason for them to be absolute top-shelf quality.
+* Fixed an annoying niggle: when leaving a running timer, then coming back after a few seconds, the timer would briefly display the time at which it was last at when leaving, then jump to the correct (new) time. It now displays the correct time immediately.
+
+* 1.0.1d0
+* August 18, 2012
+* The status bar (the top bar) is now hidden during timer operation. Gives a cleaner interface, and removes even more distractions during Podium Mode.
+* Added some more instructions, concerning setting Podium Mode thresholds.
+
+* 1.0 (Official Release)
+* 1.0b3
+* August 16, 2012
+* On the iPad, if the timer prefs popover is up when the iPad is rotated, it can end up shoved into the edge. I addressed this by simply dismissing it if the iPad is being rotated.
+
+* 1.0b2
+* August 16, 2012
+* Made a couple of corrections to the instructions text.
+
+* 1.0b1
+* August 16, 2012
+* Found that, on infrequent occasions, the background header would not redraw properly on an iPad, when rotated. This has been addressed.
+
+* 1.0b0
+* August 16, 2012
+* No change, other than removal of the TestFlight SDK (It has a small memory leak, so it won't be in the final ship).
+
+* 1.0a5
+* August 15, 2012
+* Simplified the Digital Mode beep generation. It was playing in a disorganized manner.
+* For the Info screen on the iPad, the instructions get a bit more room.
+* Reworded a couple of lines in the instructions.
+
+* 1.0a4
+* August 14, 2012
+* Corrected a really stupid mistake that affected the layout of the new infor screen on the iPad.
+
+* 1.0a3
+* August 14, 2012
+* Made a number of changes to the info screen.
+* Made the Start button font bold.
+* Made the text shadows appear directly under the button text.
+
+* 1.0a2
+* August 14, 2012
+* The main button font was accidentally set to italic, when only the disabled start button prompt should be so.
+* Made a number of changes to the info screen.
+
+* 1.0a0 (and 1.0a1)
+* August 13, 2012
+* Made the prefs popover background consistent with the app theme.
+* Reduced the brightness of the "off" LED segments slightly. They were a bit too strong.
+* Added the final splash screens.
+* Made the Reset button black.
+* Now select font size to adapt to the iPad.
+* All buttons use the same font.
+
+* 1.0d19
+* August 12, 2012
+* Fixes an aesthetic issue with the background texture.
+
+* 1.0d18
+* August 12, 2012
+* Fixed a bug, in which the beep did not play at completion of the digital time countdown.
+* Made a couple of aesthetic tweaks; Namely, increasing the opacity of "Off" LED digits, increasing the opacity of the Clear Button, and increasing the saturation of the Reset Button red.
+
+* 1.0d15
+* August 12, 2012
+* Changed the centering of the digital display.
+* Changed the info text a bit to account for the new positioning of the Reset Button.
+* Instead of completely hiding inactive buttons in the top bar, they are now simply dimmed.
+
+* 1.0d14
+* August 11, 2012
+* This implements an interface recommendation by Adam.
+
+* 1.0d13
+* August 11, 2012
+* Added a vibration-only setting, and removed the raucous loudest beep.
+* Updated the icon to Adam's latest.
+* Updated the colors of the buttons.
+
+* 1.0d12
+* August 11, 2012
+* Rearranged the UI, so that everything is bigger and looser. This makes the app more usable. Also, the Reset button now appears next to the Start button (which makes room for it).
+
+* 1.0d11
+* August 10, 2012
+* Added the splash screens.
+* Changed the app name to "Speaker Timer."
+
+* 1.0d10
+* August 10, 2012
+* The Podium Mode lights now start off in the proper way (originally, they would always start in green, even if we started off in a warning or final state).
+* The prefs are now presented in a popover on the iPad (far more convenient). This needs lots of testing.
+
+* 1.0d9
+* August 10, 2012
+* Made the top button text black, as the blue was too difficult to see.
+
+* 1.0d8
+* August 10, 2012
+* Finished Adam's design of the Podium Mode display.
+* "Loosened up" the layout, and made the Start button bigger.
+* Made the disabled Start text a bit easier to read.
+* Made all of the buttons into the gradient buttons.
+
+* 1.0d7
+* August 10, 2012
+* Removed the "glass" look from the Start Button (It was distracting).
+* Made the warning and final threshold buttons into round rect gradient buttons.
+* Improved the prompt text in the disabled Start Button.
+* Made the Start Button a bit bigger.
+
+* 1.0d6
+* August 9, 2012
+* Fixed a cosmetic bug in iPad portrait mode.
+
+* 1.0d5
+* August 9, 2012
+* Made some internal changes to the Podium Mode display that should have no effect on the performance or quality of the app. These changes enhance the reusability of some code.
+* The Start button now has a "glass effect," in an effort to show how it can be applied elsewhere.
+
+* 1.0d4
+* August 9, 2012
+* Fixed a bug, in which the new Podium Mode lights were being improperly drawn on the iPad.
+* Added a "glass effect" to the Podium Mode lights, which brings it closer to Adam's design.
+
+* 1.0d3
+* August 9, 2012
+* Fixed a bug in which rotating an operating timer on the iPad would flash the set time momentarily.
+* Improved the instructions text.
+* Improved the prompt text over the Start button.
+
+* 1.0d2
+* August 8, 2012
+* Removed the negative display for when the timer is over the limit.
+* Improved the prompt text for the disabled start button (instructs the user to swipe on the numbers).
+
+* 1.0d1
+* August 8, 2012
+* The numbers didn't flash for silent.
+
+* 1.0d0 (First development release)
+* August 8, 2012
+* The app prevents the phone from auto-locking while the timer is going.
+
+* 0.99.9
+* August 8, 2012
+* Removed the stop button from the active timer display. The timer is now stopped by a tap gesture on the screen. It is totally simple, now.
+* Added alert sounds for the end of the digital mode countdown.
+
+* 0.99.8
+* August 7, 2012
+* Make it more obvious when the Start button is disabled.
+* Added some preliminary instructions text.
+* Added touchable Web links for the info screen.
+
+* 0.99.7
+* August 7, 2012
+* Improved the items in the info window.
+
+* 0.99.6
+* August 7, 2012
+* Added some graphics and text to the Info window (This is all preliminary).
+* Fixed a couple of usability bugs with the way that Podium Mode works.
+* Changed the way that the aspect-setting routine positions the numbers, so there is no "jog" as the timer starts and stops.
+* Made the START button a regular rounded rect button. This will all be replaced by Adam, so it doesn't matter what it is, now.
+* Changed the strings that are displayed in the START and STOP buttons, so that they are more explanatory.
+
+* 0.99.5
+* August 6, 2012
+* Tweaked the aspect range to allow taller and thinner numbers.
+* The clear and reset buttons are now hidden when they are not useful.
+* Fixed a bug in the automatic threshold setting. It was always being turned on after the timer was run.
+* Moved the various items around, in order to make the app a bit more consistent and usable.
+
+* 0.99.4
+* August 6, 2012
+* The start button was not being disabled for a zero timer.
